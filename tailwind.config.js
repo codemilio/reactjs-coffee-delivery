@@ -3,6 +3,10 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      fontFamily: {
+        'title': ['"Baloo 2', 'sans-serif'],
+        'roboto': ['roboto', 'sans-serif']
+      },
       colors: {
         primary: {
           900: '#C47F17',
