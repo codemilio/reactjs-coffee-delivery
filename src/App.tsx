@@ -5,7 +5,7 @@ import { Badge } from './components/Badge'
 function App() {
   return (
     <main className='flex-1 h-screen bg-base-100'>
-      <div className="mx-40">
+      <div className="mx-40">````
         <header className="flex gap-x-14">
           <div className="flex flex-col gap-y-4">
             <h1 className="font-title text-5xl font-black leading-[130%]">
