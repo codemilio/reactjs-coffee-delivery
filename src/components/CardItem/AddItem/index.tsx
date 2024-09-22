@@ -1,3 +1,5 @@
+import { Minus, Plus } from '@phosphor-icons/react'
+
 export function AddItem() {
 
   const handleAdd = () => {
@@ -10,9 +12,13 @@ export function AddItem() {
   
   return (
     <div>
-      <button type="button"> </button>
+      <button type="button" className="rounded-lg bg-gray-100"> 
+        <Plus />
+      </button>
       <input type="number" name="" id="" />
-      <button type="button"> </button>
+      <button type="button"  className="rounded-lg bg-gray-100">
+        <Minus />
+      </button>
     </div>
   )
 }
