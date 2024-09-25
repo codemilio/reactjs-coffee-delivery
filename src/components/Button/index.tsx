@@ -8,7 +8,7 @@ export function Button({ children }: Props) {
   
   return (
     <button type="button"  className="rounded-lg bg-gray-100">
-      { children}
+      { children }
     </button>
   )
 }
