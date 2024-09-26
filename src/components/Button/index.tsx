@@ -1,13 +1,13 @@
-import type { ReactNode } from "react"
+import type { ComponentProps,  ReactNode } from "react"
 
-type Props  = {
+type Props = ComponentProps<'button'> & {
   children: ReactNode
 }
 
-export function Button({ children }: Props) {
+export function Button({ children, ...props }: Props) {
   
   return (
-    <button type="button"  className="rounded-lg bg-gray-100">
+    <button type="button"  className="rounded-lg bg-gray-100" {...props}>
       { children }
     </button>
   )
