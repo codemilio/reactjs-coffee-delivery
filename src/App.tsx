@@ -1,4 +1,4 @@
-import { Timer } from '@phosphor-icons/react'
+import { Coffee, Timer } from '@phosphor-icons/react'
 import headerImg from './assets/header.png'
 import { Badge } from './components/Badge'
 
@@ -15,9 +15,22 @@ function App() {
               Com o Coffee Delivery você recebe seu café onde estiver a qualquer
               hora.
             </span>
-						<Badge label='Teste'>
-							<Timer size={16} />
-						</Badge>
+            <div className='flex flex-row gap-x-10'>
+              <Badge label='Compras Simples e seguras'>
+                <Timer size={16} />
+              </Badge>
+              <Badge label='Entrega rápida e rastread'>
+                <Timer size={16} />
+              </Badge>
+            </div>
+            <div className='flex flex-row gap-x-10'>
+              <Badge label='Embalagem térmica'>
+                <Timer size={16} />
+              </Badge>
+              <Badge label='Café feito na hora'>
+                <Coffee size={16}  weight='fill'/>
+              </Badge>
+            </div>
           </div>
           <img src={headerImg} alt="Descrição da imagem" />
         </header>
