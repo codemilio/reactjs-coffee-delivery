@@ -5,7 +5,7 @@ import { Badge } from './components/Badge'
 function App() {
   return (
     <main className="flex-1 h-screen bg-base-100">
-      <div className="mx-40">
+      <div className="flex flex-col gap-y-16 mx-40">
         <header className="flex gap-x-14">
           <div className="flex flex-col gap-y-4">
             <h1 className="font-title text-5xl font-black leading-[130%]">
@@ -34,6 +34,9 @@ function App() {
           </div>
           <img src={headerImg} alt="Descrição da imagem" />
         </header>
+        <section>
+          <h2 className='font-title text-4xl font-black'> Nossos cafés </h2>
+        </section>
       </div>
     </main>
   )

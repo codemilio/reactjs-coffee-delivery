@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'title': ['"Baloo 2', 'sans-serif'],
+        'title': ['Baloo 2', 'sans-serif'],
         'roboto': ['roboto', 'sans-serif']
       },
       colors: {
