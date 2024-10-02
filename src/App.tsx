@@ -16,18 +16,21 @@ function App() {
               hora.
             </span>
             <div className="flex flex-row gap-x-10">
-              <Badge label="Compras Simples e seguras">
+              <Badge
+                label="Compras Simples e seguras"
+                className="bg-primary-900"
+              >
                 <Timer size={16} />
               </Badge>
-              <Badge label="Entrega rápida e rastread">
+              <Badge label="Entrega rápida e rastread" className="bg-secondary-500">
                 <Timer size={16} />
               </Badge>
             </div>
             <div className="flex flex-row gap-x-10">
-              <Badge label="Embalagem térmica">
+              <Badge label="Embalagem térmica" className="bg-primary-100">
                 <Timer size={16} />
               </Badge>
-              <Badge label="Café feito na hora">
+              <Badge label="Café feito na hora" className="bg-base-700">
                 <Coffee size={16} weight="fill" />
               </Badge>
             </div>
@@ -35,7 +38,7 @@ function App() {
           <img src={headerImg} alt="Descrição da imagem" />
         </header>
         <section>
-          <h2 className='font-title text-4xl font-black'> Nossos cafés </h2>
+          <h2 className="font-title text-4xl font-black"> Nossos cafés </h2>
         </section>
       </div>
     </main>
