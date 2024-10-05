@@ -22,7 +22,10 @@ function App() {
               >
                 <Timer size={16} />
               </Badge>
-              <Badge label="Entrega rápida e rastread" className="bg-secondary-500">
+              <Badge
+                label="Entrega rápida e rastread"
+                className="bg-secondary-500"
+              >
                 <Timer size={16} />
               </Badge>
             </div>
