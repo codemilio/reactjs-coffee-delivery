@@ -7,7 +7,7 @@ type Props = ComponentProps<'button'> & {
 export function Button({ children, ...props }: Props) {
   
   return (
-    <button type="button"  className="rounded-lg bg-gray-100" {...props}>
+    <button type="button"  className="rounded-lg bg-gray-100 p-2" {...props}>
       { children }
     </button>
   )
